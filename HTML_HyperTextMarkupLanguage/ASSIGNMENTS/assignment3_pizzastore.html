@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- MEMBER LOGIN (FORM: INPUT, PASSWORD, SUBMIT + TAGS: A, IMG )-->
+    <form action="#link">
+        <input type="text" value="" id="username" placeholder="username" />
+        <input type="password" value="" id="password" />
+        <input type="submit" value="submit">
+
+    <h1>Georgio's Pizzeria</h1> 
+    <a href="https://www.papajohns.com/"> <img src="IMAGES/georgio.jpg"></a>
+    <h2>Welcome Amici! Pizza by-the-slice or Whole Pies available.</h2>
+    
+    <!-- LIST OF PIZZA OPTIONS (TAGS: P,UL,LI) -->
+    <p>
+        <h3>Pizza-by-the-slice Options</h3>
+        <ul>
+            <li>Cheese</li>
+            <li>Pepperoni</li>
+            <li>Sausage</li>
+        </ul>
+        <h3>Whole Pie Options</h3>
+        <ul>
+            <li>Cheese</li>
+            <li>Pepperoni</li>
+            <li>Sausage</li>
+            <li>Hawaiian</li>
+            <li>Meat Lovers</li>
+            <li>Veggie</li>
+            <li>The Works (veggies + meat)</li>
+        </ul>
+    </p>
+    
+    <!-- PIZZA SIZE OPTIONS (FORM: RADIO) -->
+    <h3>Pick-Up or Delivery:</h3>
+    <input type="radio" name="pd" id="Pick-up" value="Pick-up" checked>
+        <label for="Pick-up">Pick-Up</label>
+
+    <input type="radio" name="pd" id="Delivery" value="Delivery" checked>
+        <label for="Delivery">Delivery</label>
+
+    <h4>Choose your Pizza Size and Quantity:</h4>
+    <input type="radio" name="size" id="slice" value="Single Slice" checked>
+        <label for="slice">Single Slice of Pizza-$3.99</label>
+
+    <input type="radio" name="size" id="Small" value="Small" checked>
+        <label for="Small">Small-$8.99</label>
+
+    <input type="radio" name="size" id="Medium" value="Medium" checked>
+        <label for="Medium">Medium-$10.99</label>
+        
+    <input type="radio" name="size" id="Large" value="Large" checked>
+        <label for="Large">Large-$12.99</label>
+
+    <input type="number" value="number of pizzas" id="numberInput" max="5" min="1"/>
+    
+    <!-- PIZZA FLAVORS (FORM: MULTIPLE SELECT MENU) -->
+    <h4>Choose your Pizza Style</h4>
+    <select name="toppings" id="toppings" multiple size="5" multiple="5">
+        <option value="Cheese">Cheese </option>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Sausage">Sausage</option>
+        <option value="Hawaiian">Hawaiian</option>
+        <option value="Meat Lovers">Meat Lovers</option>
+        <option value="Veggie">Veggie</option>
+        <option value="The Works">The Works</option>
+    </select>
+    <input type="submit" value="Confirm"></form>
+    <!-- PIZZA FLAVORS (FORM: CHECKBOX) -->
+    <h4>Choose your Crust Flavor</h4>
+    <input type="checkbox" name="crust" id="butter" value="butter">
+        <label for="butter">Butter</label>
+
+    <input type="checkbox" name="crust" id="garlic" value="garlic">
+        <label for="garlic">Roasted Garlic</label> 
+
+    <input type="checkbox" name="crust" id="cheese" value="cheese">
+        <label for="cheese">Asiago Cheese</label>
+
+    <input type="checkbox" name="crust" id="ranch" value="ranch">
+        <label for="ranch">Zesty Ranch</label>     
+        </form>
+        <br>
+
+    <!-- SPECIAL INSTRUCTIONS (FORM: TEXT AREA) -->
+    <textarea name="instructions" id="instructions" cols="30"  rows="10" placeholder="Special Instructions...">
+    </textarea>
+        <input type="submit" value="Confirm">
+    
+        <!-- YOUTUBE VIDEO EMBEDDED-->
+    <h4>Check out our latest commercial!</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ny_LUq7BBJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!-- continuation of Week 1-Day 3 (Forms) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<h1>Forms</h1>
+<form action="#link">
+    <input type="text" value="" id="username" placeholder="username" />
+    <input type="password" value="" id="password" />
+    <input type="number" value="" id="numberInput" max="10" min="0"/>
+    <input type="date" value="date" id="date">
+    <input type="submit" value="Confirm">
+
+    <!-- Radio Button & Checkbox -->
+    <h2>Choose your format:</h2>
+    <label for="vinyl">Vinyl
+        <input type="radio" name="format" id="vinyl" value="vinyl" checked>
+    </label>
+
+    <label for="cd">Compact Disc
+        <input type="radio" name="format" id="cd" value="cd">
+    </label>
+       
+    <label for="stream">Digital
+        <input type="radio" name="format" id="stream" value="stream">
+    </label> 
+
+    <h2>Choose your toppings</h2>
+    <label for="pickles">Pickles
+        <input type="checkbox" name="topping" id="pickles" value="pickles">
+    </label>
+
+    <label for="tomatoes">Tomatoes
+        <input type="checkbox" name="topping" id="tomatoes" value="tomatoes">
+    </label>
+
+    <label for="onion">Onions
+        <input type="checkbox" name="topping" id="onions" value="onions">
+    </label>
+
+    <label for="lettuce">Lettuce
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+    </label>
+
+    <label for="bacon">Bacon
+        <input type="checkbox" name="topping" id="bacon" value="bacon">
+    </label>
+
+    <input type="submit" value="Confirm">
+
+
+<!-- Dropdown Menu -->
+
+<h2>Choose your T-shirt size</h2>
+<select name="shirt" id="shirt">
+    <option value="" disabled selected></option>
+    <option value="XS">Extra Small</option>
+    <option value="S">Small</option>
+    <option value="M">Medium</option>
+    <option value="L">Large</option>
+    <option value="XL">Extra Large</option>
+</select>
+
+<input type="submit" value="Confirm">
+</form>
+
+<h2>Banana Split Toppings</h2>
+<select name="toppings" id="toppings" multiple size="5">
+    <option value="sprinkles">Sprinkles</option>
+    <option value="cherries">Cherries</option>
+    <option value="hot fudge">Hot Fudge</option>
+    <option value="crushed peanuts">Crushed Peanuts</option>
+    <option value="whip cream">Whip Cream</option>
+</select>
+<input type="submit" value="Confirm"></body></html></form>
+<br>
+<textarea name="instructions" id="instructions" cols="30"  rows="10" placeholder="Special Instructions...">
+</textarea>
+
+<input type="submit" value="Confirm">
+
+</form>
+
+</body>
+</html>
+

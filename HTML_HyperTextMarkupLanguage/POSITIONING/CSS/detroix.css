@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f5f5f7;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Header Beginning */
+
+.top-header {
+    background-color: #121e2e;
+}
+
+.top-header .inner {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: #5c6574;
+    text-transform: uppercase;
+}
+
+.top-header ul li {
+    display: inline;
+    border-right: solid 1px #5c6574;
+    padding-right: 2px;
+}
+
+.top-header ul li:last-child {
+    border-right: none;
+}
+
+.top-link {
+    margin-top: 6px;
+    float: left;
+}
+
+.top-nav {
+    float: right;
+}
+
+.top-nav ul {
+    margin: 6px 0;
+    padding: 0;
+}
+
+.main-header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.main-header .nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.main-header .nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header .nav li {
+    display: inline-block;
+}
+
+.main-header .nav li a {
+    color: white;
+    padding: 10px 16px;
+    background-color: #121e2e;
+    text-decoration: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.main-header .nav li a:hover {
+    background-color: #fe8c05;
+}
+
+.main-header .nav li:first-child a {
+    background-color: #fe8c05;
+}
+
+.clear {
+    clear: both;
+}
+
+/* hero image --can't figure out how to get border radius to work */
+.main {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 16px;
+}
+
+/* carousel */
+.section1 .block2 {
+    border: black 2px;
+}
+    
+.section1 .block2 ul {
+    list-style: none;
+    text-align: center 
+}
+    
+.section1 .block2 li {
+    display: inline-block;
+}
+    
+.section1 .block2 li a {
+    padding: 10px 18px;
+    background-color: orange;
+    border-radius: 50%;
+}
+    
+.section1 .block2 li:first-child a {
+    background-color: orange
+}
+    
+.section1 .block2 a:hover {
+    background-color: orange
+}
+
+.clear {
+    clear: both;
+}
+
+/* 3-part middle section */
+.section2 .block1 {
+    border-top: solid gray 2px;
+    border-right: solid gray 2px;
+    width: calc(100% / 3);
+    float: left;
+   
+}
+
+.section2 .block2 {
+    border-top: solid gray 2px;
+    border-right: solid gray 2px;
+    width: calc(100% / 3);
+    float: left;
+   
+}
+
+.section2 .block3 {
+   border-top: solid gray 2px;
+    width: calc(100% / 3);
+    float: left;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+/* footer */
+
+.footer .block1 {
+    width: calc(100% / 3);
+    float: left;
+    list-style-image: url('HTML_HyperTextMarkupLanguage/POSITIONING/CSS/media/cog.png');
+}
+
+.footer .block2 {
+    width: calc(100% / 3);
+    float: left;
+    list-style-image: url('HTML_HyperTextMarkupLanguage/POSITIONING/CSS/media/chat.png');
+}
+
+.footer .block3 {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.footer {
+    background-color: #121e2e;
+}
+
+ 

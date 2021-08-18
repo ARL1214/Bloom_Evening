@@ -1,0 +1,32 @@
+HTML = Hyper Text Mark-up Language
+
+[The Skeleton of Coding.]
+
+<tag> (opening tag)
+
+</tag> (closing tag)
+
+Ex. <tag> hello bobby, how are you? </tag>
+
+
+
+
+ASSIGNMENT 1
+
+Bio Page
+h1-h3
+1 page tag
+1 ul
+1 ol
+1 link to anything
+bonus --> embed
+
+
+	
+ASSIGNMENT 2
+
+About Me Page
+h1 - Name
+h2 - 1p details about me + ol of 3 fav. foos w/ 1 link to recipe
+h2 - ul of 3 fav. movies/shows w/ link to trailer or movie
+1 img of anything I'm passionate about w/ link to YT video

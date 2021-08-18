@@ -1,0 +1,43 @@
+header {
+    background-color: green;
+}
+
+.section1 {
+    border: solid blue 2px;
+}
+
+.section1 .inner-div {
+    border: solid green 2px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.section1 .inner-div1 {
+    background-color: beige;
+}
+
+.section1 .inner-div2 {
+    background-color: black;
+    color: white;
+}
+
+.section1 .inner-div3 {
+    background-color: pink;
+}
+
+.section2 {
+    border: solid blue;
+}
+
+.section2 .inner-div {
+    border: solid green 2px;
+    width: calc(100% / 2);
+    float: left;
+}
+
+.section2 .inner-div1 {
+    width: 210px;
+    margin: 100px;
+}
+
+.section2
